@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Nu.Plugin.Len": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Apps\\NuShell\\nu_latest\\nu.exe",
+      "commandLineArgs": "-c \"echo '1234' | cslen\"",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Nu.Plugin.Interfaces;
 
-namespace Nu.Plugin.Len
+namespace Nu.Plugin.Gb
 {
     class Program : INuPluginFilter
     {
         static async Task Main(string[] args) => await NuPlugin.Create()
-            .Name("cslen")
+            .Name("gb")
             .Usage("Return the length of a string")
             .IsFilter<Program>()
             .RunAsync();

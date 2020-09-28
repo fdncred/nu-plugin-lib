@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samples\Nu.Plugin.Len", "samples\Nu.Plugin.Len\Nu.Plugin.Len.csproj", "{F260501A-3424-44D5-8D30-11F7C46DEE99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nu.Plugin.Len", "samples\Nu.Plugin.Len\Nu.Plugin.Len.csproj", "{F260501A-3424-44D5-8D30-11F7C46DEE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Nu.Plugin", "src\Nu.Plugin\Nu.Plugin.csproj", "{A5740DCA-A481-4F61-A296-BC9733C9225E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nu.Plugin", "src\Nu.Plugin\Nu.Plugin.csproj", "{A5740DCA-A481-4F61-A296-BC9733C9225E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nu.Plugin.Gb", "samples\Nu.Plugin.Gb\Nu.Plugin.Gb.csproj", "{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F260501A-3424-44D5-8D30-11F7C46DEE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{A5740DCA-A481-4F61-A296-BC9733C9225E}.Release|x64.Build.0 = Release|Any CPU
 		{A5740DCA-A481-4F61-A296-BC9733C9225E}.Release|x86.ActiveCfg = Release|Any CPU
 		{A5740DCA-A481-4F61-A296-BC9733C9225E}.Release|x86.Build.0 = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|x64.Build.0 = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|x64.Build.0 = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E1FC498-B54E-4BB2-A4B1-F646C57E7FC8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1005D39-3394-4716-ABEF-27DE1557E94E}
 	EndGlobalSection
 EndGlobal

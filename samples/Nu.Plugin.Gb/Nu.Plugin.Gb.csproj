@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Nu.Plugin\Nu.Plugin.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AssemblyName>nu_plugin_gb</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

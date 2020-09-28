@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Nu.Plugin.Gb": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Apps\\NuShell\\nu_latest\\nu.exe",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "FileVersion": 2,
+  "Id": "7e1fc498-b54e-4bb2-a4b1-f646c57e7fc8",
+  "Items": [
+    {
+      "Id": "ddca3311-c743-4067-9884-117f173e512c",
+      "Command": "-c \"echo '1234' | cslen\""
+    }
+  ]
+}
